@@ -2,6 +2,10 @@
 
 **TRIZ-based contradiction engine: resolve technical and strategic tradeoffs with 40 inventive principles.**
 
+## Prerequisites
+
+- **Claude Cowork or Claude Code** environment
+
 ## Goal
 
 When two requirements conflict — improving A worsens B — you're stuck without a systematic way forward. triz structures the contradiction and applies proven invention principles to find non-obvious solutions. It combines 40 Inventive Principles, 4 Separation Principles, and Laws of System Evolution into a 5-stage pipeline.
