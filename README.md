@@ -1,23 +1,36 @@
-# TRIZ
+# triz
 
-**TRIZ-based contradiction solving engine with 40 inventive principles.**
+**TRIZ-based contradiction engine: resolve technical and strategic tradeoffs with 40 inventive principles.**
 
-When two requirements conflict (improving A worsens B), this skill structures the contradiction and applies the 40 Inventive Principles, 4 Separation Principles, and Laws of System Evolution to generate solutions.
+## Goal
 
-### Example Prompts
+When two requirements conflict — improving A worsens B — you're stuck without a systematic way forward. triz structures the contradiction and applies proven invention principles to find non-obvious solutions. It combines 40 Inventive Principles, 4 Separation Principles, and Laws of System Evolution into a 5-stage pipeline.
 
-```
-"We need it cheaper but higher quality" → identify contradiction→match principles→generate solutions→evaluate vs Ideal Final Result
-"Solve this tradeoff: speed vs accuracy" → technical contradiction→matrix→top principles→solutions
-```
+## When & How to Use
 
-### Pipeline
+Invoke when you face a true tradeoff that blocks progress. Best used when conventional approaches have failed. Input: conflicting requirements. Output: ranked solution directions mapped to TRIZ principles, plus system evolution forecasts.
 
-1. **Define** — Contradiction in one sentence
-2. **Classify** — Technical (parameter conflict) or Physical (same attribute, opposite needs)
-3. **Match** — Technical → 40 Principles + Matrix; Physical → 4 Separation Principles
-4. **Generate** — Apply matched principles to the problem
-5. **Verify** — Evaluate against Ideal Final Result
+## Use Cases
+
+| Scenario | Prompt | What Happens |
+|---|---|---|
+| Speed vs. quality | `"Ship 3x faster but quality metrics dropping"` | Technical contradiction→Inventive Principles→solutions ranked by cost/timeline |
+| Cost vs. quality | `"Reduce costs 30% while maintaining premium spec"` | Separation principle→Inventive Principles→evolution forecast |
+| Scale vs. customization | `"Platform for 100 customer needs without 100 implementations"` | Modularity + Universality→S-Curve forecasting |
+
+## Key Features
+
+- 5-stage pipeline: Define → Classify → Match → Generate → Verify
+- 40 Inventive Principles with domain adapters
+- 4 Separation Principles: Spatial, Temporal, Condition-based, Scale-based
+- Laws of System Evolution for next-stage prediction
+- Ideality scoring against ideal final result
+
+## Works With
+
+- **[planning-skill](https://github.com/jasonnamii/planning-skill)** — contradiction resolution in creative jump phase
+- **[biz-skill](https://github.com/jasonnamii/biz-skill)** — structures strategic contradictions
+- **[trigger-dictionary](https://github.com/jasonnamii/trigger-dictionary)** — accessed as structured protocol
 
 ## Installation
 
@@ -35,7 +48,7 @@ Skills placed in `~/.claude/skills/` are automatically available in Claude Code 
 
 ## Part of Cowork Skills
 
-This is one of 25 custom skills. See the full catalog: [https://github.com/jasonnamii/cowork-skills](https://github.com/jasonnamii/cowork-skills)
+This is one of 25+ custom skills. See the full catalog: [github.com/jasonnamii/cowork-skills](https://github.com/jasonnamii/cowork-skills)
 
 ## License
 
