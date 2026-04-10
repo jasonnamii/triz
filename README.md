@@ -1,5 +1,7 @@
 # triz
 
+> 🇰🇷 [한국어 README](./README.ko.md)
+
 **TRIZ-based contradiction engine: resolve technical and strategic tradeoffs with 40 inventive principles.**
 
 ## Prerequisites
