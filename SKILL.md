@@ -1,5 +1,5 @@
 ---
-name: triz-skill-skill
+name: triz-skill
 "@uses":
   - references/40-principles.md
   - references/contradiction-matrix.md
