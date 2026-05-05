@@ -5,11 +5,12 @@ name: triz-skill
   - references/contradiction-matrix.md
 description: |
   TRIZ 기반 모순 해결 엔진. 기술·사업 문제의 모순을 구조화하고 40 발명원리·분리원칙·진화법칙으로 해결안 도출.
-  P1: TRIZ, 트리즈, 발명원리, 모순해결, 모순기술, 트레이드오프, 이율배반, 분리원칙, 기술적모순, 물리적모순.
-  P2: 모순 해결해줘, 트레이드오프 돌파해줘, solve contradiction, resolve tradeoff.
-  P3: inventive principle, contradiction matrix, separation principle, ideality, system evolution.
-  P5: 해결안으로, .md로, 인라인으로.
-  NOT: 단순 브레인스토밍(→직접수행), 사업전략 전반(→biz-skill), 제1원리 분해(→trigger-dictionary).
+    P1: TRIZ, 트리즈, 발명원리, 모순해결, 모순기술, 트레이드오프, 이율배반, 분리원칙, 기술적모순, 물리적모순, 트리즈스킬, triz skill, 혁신설계, 문제구조화, 모순분석, 발명적해결, 창의적해결, 40원리, 모순매트릭스, 이상해, IFR, 기술진화, 시스템혁신.
+    P2: 모순 해결해줘, 트레이드오프 돌파해줘, solve contradiction, resolve tradeoff, 이율배반 풀어줘, 트리즈로 풀어줘, 모순 분석해줘, 발명적으로 해결해줘.
+    P3: inventive principle, contradiction matrix, separation principle, ideality, system evolution, TRIZ methodology, 40 inventive principles.
+    P4: 기술·사업 트레이드오프가 막힐 때, 창의적 문제해결이 필요할 때, 모순 구조를 돌파해야 할 때.
+    P5: 해결안으로, .md로, 인라인으로.
+    NOT: 단순 브레인스토밍(→직접수행), 사업전략 전반(→biz-skill), 제1원리 분해(→trigger-skill), 컨설팅구조화(→consulting-toolkit).
 ---
 
 # TRIZ Skill — 트리즈 스킬
